@@ -1,0 +1,8 @@
+apiVersion: builtin
+kind: HelmChartInflationGenerator
+metadata:
+  name: hello-world-helm-redis
+chartName: redis
+chartRepoUrl: https://charts.bitnami.com/bitnami
+values: values.yaml
+releaseName: redis-cluster
