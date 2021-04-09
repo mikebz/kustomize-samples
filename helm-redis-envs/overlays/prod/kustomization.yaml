@@ -3,5 +3,3 @@ commonAnnotations:
   note: kustomized for prod
 bases:
 - ../../redis
-resources:
-- ./namespace.yaml

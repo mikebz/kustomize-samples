@@ -3,5 +3,3 @@ commonAnnotations:
   note: kustomized for stage
 bases:
 - ../../redis
-resources:
-- ./namespace.yaml

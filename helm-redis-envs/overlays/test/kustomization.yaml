@@ -3,5 +3,3 @@ commonAnnotations:
   note: kustomized for test
 bases:
 - ../../redis
-resources:
-- ./namespace.yaml
