@@ -3,6 +3,6 @@ commonAnnotations:
   note: kustomized for stage
 bases:
 - ../../app
-- sso://user/mikebz/kustomize-samples/helm-redis-envs/overlays/stage
+- ../../helm-redis-envs/overlays/stage
 resources:
 - ./namespace.yaml

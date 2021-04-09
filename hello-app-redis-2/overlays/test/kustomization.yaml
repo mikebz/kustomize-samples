@@ -3,6 +3,6 @@ commonAnnotations:
   note: kustomized for test
 bases:
 - ../../app
-- sso://user/mikebz/kustomize-samples/helm-redis-envs/overlays/test
+- ../../helm-redis-envs/overlays/prod
 resources:
 - ./namespace.yaml
