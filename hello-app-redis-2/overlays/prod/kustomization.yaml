@@ -1,8 +1,8 @@
-namespace: kc-prod
 commonAnnotations:
   note: kustomized for prod
 bases:
 - ../../app
 - ../../helm-redis-envs/overlays/prod
-resources:
-- ./namespace.yaml
+commonLabels:
+  variant: prod
+  org: kubecrypto
